@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+/* Barra de navegación igual a la imagen */
+nav {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+nav a {
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    border-right: none;
+    color: #000;
+}
+
+/* Colores de cada pestaña */
+nav a.inicio { background-color: #f9b233; }
+nav a.somos { background-color: #f9b233; }
+nav a.agregar { background-color: #f9b233; }
+nav a.alta { background-color: #34b749; color: white; }
+nav a.visitanos { background-color: #f9b233; border-right: 1px solid #ddd; }
+
+/* Contenedor del formulario */
+.contenedor {
+    max-width: 480px;
+    border: 1px solid #e0e0e0;
+    padding: 35px 30px;
+    background-color: #ffffff;
+}
+
+.contenedor h2 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Campos del formulario */
+.grupo {
+    margin-bottom: 25px;
+}
+
+.grupo label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.grupo input {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+/* Texto de ayuda */
+.texto-info {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 25px 0;
+}
+
+/* Botón Registrarse */
+button {
+    background-color: #0090ff;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Páginas simples */
+.contenido {
+    padding: 20px;
+    font-size: 16px;
+}
